@@ -45,6 +45,6 @@ public class GankBeautyResultToItemsMapper implements Function<GankBeautyResult,
             item.imageUrl = gankBeauty.url;
             items.add(item);
         }
-        return Observable.fromIterable(items);
+        return items;
     }
 }
