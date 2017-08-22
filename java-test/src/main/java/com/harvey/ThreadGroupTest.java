@@ -43,9 +43,9 @@ public class ThreadGroupTest implements Runnable {
                     threads[i].getState());
         }
 
-        waitFinish(threadGroup);
+//        waitFinish(threadGroup);
         //将group里面的所有线程都给interpet
-//        threadGroup.interrupt();
+        threadGroup.interrupt();
     }
 
     private static void waitFinish(ThreadGroup threadGroup) {
