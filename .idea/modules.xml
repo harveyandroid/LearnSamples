@@ -4,7 +4,10 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/LearnSamples.iml" filepath="$PROJECT_DIR$/LearnSamples.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/customview/customview.iml" filepath="$PROJECT_DIR$/customview/customview.iml" />
       <module fileurl="file://$PROJECT_DIR$/glidesamples/glidesamples.iml" filepath="$PROJECT_DIR$/glidesamples/glidesamples.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java-test/java-test.iml" filepath="$PROJECT_DIR$/java-test/java-test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/robot-usb-serial/robot-usb-serial.iml" filepath="$PROJECT_DIR$/robot-usb-serial/robot-usb-serial.iml" />
       <module fileurl="file://$PROJECT_DIR$/rxjava/rxjava.iml" filepath="$PROJECT_DIR$/rxjava/rxjava.iml" />
     </modules>
   </component>

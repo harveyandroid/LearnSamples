@@ -9,7 +9,10 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/customview" />
             <option value="$PROJECT_DIR$/glidesamples" />
+            <option value="$PROJECT_DIR$/java-test" />
+            <option value="$PROJECT_DIR$/robot-usb-serial" />
             <option value="$PROJECT_DIR$/rxjava" />
           </set>
         </option>
