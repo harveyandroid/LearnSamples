@@ -1,4 +1,4 @@
-package com.harvey;
+package com.harvey.concurrent.sync;
 
 /**
  * <P>同步测试</P>
