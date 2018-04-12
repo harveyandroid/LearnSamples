@@ -1,8 +1,11 @@
 package com.harvey.concurrent;
 
 /**
+ * yield方法的作用是暂停当前线程，以便其他线程有机会执行，不过不能指定暂停的时间，
+ * 并且也不能保证当前线程马上停止。yield方法只是将Running状态转变为Runnable状态
  * Created by hanhui on 2017/9/14 0014 11:06
  */
+
 public class YieldTest implements Runnable {
     public static void main(String[] args) {
         YieldTest runn = new YieldTest();
