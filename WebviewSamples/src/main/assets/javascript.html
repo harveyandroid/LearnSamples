@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>WebviewTest</title>
+
+    <script>
+// Android需要调用的方法
+function callJS(){
+      alert("Android调用了JS的callJS方法");
+     return "js返回值";
+   }
+function callAndroid1(){
+// 由于对象映射，所以调用test对象等于调用Android映射的对象
+            test.hello("js调用了android中的hello方法");
+         }
+function callAndroid2(){
+//约定的url协议为：js://webview?arg1=111&arg2=222
+            document.location = "js://webview?arg1=111&arg2=222";
+         }
+ function returnResult(result){
+    alert("来自客户端的信息：" + result);
+}
+  function clickprompt(){
+    // 调用prompt（）
+    var result=prompt("js://webview?arg1=111&arg2=222");
+    alert("demo " + result);
+}
+
+    </script>
+
+</head>
+<body>
+<button type="button" id="button1" onclick="callAndroid1()">
+    点击对象映射调用Android代码
+</button>
+<h1></h1>
+<button type="button" id="button2" onclick="callAndroid2()">
+    点击回调拦截调用Android代码
+</button>
+<h1></h1>
+<button type="button" id="button3" onclick="clickprompt()">
+    点击prompt调用Android代码
+</button>
+</body>
+</html>
