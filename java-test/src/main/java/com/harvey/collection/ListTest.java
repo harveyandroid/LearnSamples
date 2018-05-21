@@ -1,6 +1,7 @@
 package com.harvey.collection;
 
 import java.util.ArrayList;
+import java.util.LinkedList;
 import java.util.Map;
 import java.util.Vector;
 
@@ -19,5 +20,7 @@ public class ListTest {
         vector.add(1);
         ArrayList list = new ArrayList();
         list.add(1);
+        LinkedList linkedList=new LinkedList();
+        linkedList.add(1,1);
     }
 }

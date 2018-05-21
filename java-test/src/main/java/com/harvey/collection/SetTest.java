@@ -1,5 +1,6 @@
 package com.harvey.collection;
 
+import java.util.Arrays;
 import java.util.Collections;
 import java.util.HashSet;
 import java.util.LinkedHashSet;
@@ -26,6 +27,5 @@ public class SetTest {
         hashSet.remove(1);
         System.out.println("hashSet:" + hashSet);
         LinkedHashSet linkedHashSet=new LinkedHashSet();
-
     }
 }
