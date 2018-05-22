@@ -1,1 +1,1 @@
-include ':app', ':rxjava', ':glidesamples', ':customview', ':java-test', ':robot-usb-serial','WebviewSamples'
+include ':app', ':rxjava', ':glidesamples', ':customview', ':java-test', ':robot-usb-serial','WebviewSamples','wifitransfer-master'
