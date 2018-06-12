@@ -55,21 +55,21 @@ public class SynchronizeTest implements Runnable {
     @Override
     public void run() {
         for (int i = 0; i < 10; i++) {
-            synchronized (preLock) {
+            synchronized (sefLock) {
 
-                synchronized (sefLock) {
+                synchronized (preLock) {
 
                     System.out.print(name);
                     try {
-                        Thread.sleep(100);
+                        Thread.sleep(1000);
                     } catch (InterruptedException e) {
                         e.printStackTrace();
 
                     }
-                    sefLock.notify();
+                    preLock.notify();
                 }
                 try {
-                    preLock.wait();
+                    sefLock.wait();
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 }
