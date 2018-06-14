@@ -10,7 +10,7 @@ import java.nio.channels.DatagramChannel;
  * Created by hanhui on 2018/5/21 0021 15:09
  */
 
-public class DataDramdChannelReceiveTest {
+public class DataGramChannelReceiveTest {
 
     public static void main(String[] args) throws IOException {
 

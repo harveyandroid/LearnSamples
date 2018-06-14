@@ -4,7 +4,7 @@ package com.harvey.concurrent.sync;
  * <P>同步测试</P>
  * Created by hanhui on 2017/7/25 0025 16:56
  * <p>建立三个线程，A线程打印10次A，B线程打印10次B,C线程打印10次C，要求线程同时运行，交替打印10次ABC</p>
- * <p>在JAVA中，是没有类似于PV操作、进程互斥等相关的方法的。JAVA的进程同步是通过synchronized()来实现的，需要说明的是，
+ * <p>在JAVA中，是没有类似于PV操作、进程互斥等相关的方法的。JAVA的线程同步是通过synchronized()来实现的，需要说明的是，
  * JAVA的synchronized()方法类似于操作系统概念中的互斥内存块，在JAVA中的Object类型中，都是带有一个内存锁的，
  * 在有线程获取该内存锁后，其它线程无法访问该内存，从而实现JAVA中简单的同步、互斥操作。
  * 明白这个原理，就能理解为什么synchronized(this)与synchronized(static XXX)的区别了，

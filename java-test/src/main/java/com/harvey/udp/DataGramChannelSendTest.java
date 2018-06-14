@@ -12,7 +12,7 @@ import java.util.Scanner;
  * Created by hanhui on 2018/5/21 0021 15:10
  */
 
-public class DataGramdChannelSendTest {
+public class DataGramChannelSendTest {
     public static void main(String[] args) throws IOException {
 
         final DatagramChannel channel = DatagramChannel.open();
